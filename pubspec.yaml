@@ -1,0 +1,210 @@
+name: oder_staging
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.6+18
+
+environment:
+  sdk: ^3.7.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter 
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # bloc
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.0
+
+  # dependency injection
+  get_it: ^8.0.3
+
+  # network
+  connectivity_plus: ^6.1.3
+  http: ^1.2.2
+
+  # design
+  font_awesome_flutter: ^10.8.0
+  flutter_launcher_icons: ^0.14.3
+  carousel_slider: ^5.0.0
+  fluttertoast: ^8.2.12
+  flutter_holo_date_picker: ^2.0.0
+
+  # flutter default splash screen
+  flutter_native_splash: ^2.4.5
+
+  # storage
+  flutter_secure_storage: ^9.2.4
+  shared_preferences: ^2.5.3
+
+  # firebase core
+  firebase_core: ^3.12.1
+
+  # firebase plugins
+  firebase_analytics: ^11.4.4
+  firebase_crashlytics: ^4.3.4
+  firebase_messaging: ^15.2.5
+  firebase_performance: ^0.10.1+4
+  # firebase_dynamic_links: ^5.4.8
+  firebase_admin: ^0.3.0+1
+
+  # otp
+  otp_text_field: ^1.1.3
+  timer_count_down: ^2.2.2
+  pinput: ^5.0.1
+
+  # camera / image
+  image_cropper: ^9.0.0
+  # image_picker_type: ^1.1.0 
+  extended_image: ^9.1.0
+  image_picker: ^1.1.2
+
+  # misc
+  equatable: ^2.0.7
+  intl: ^0.19.0
+  package_info_plus: ^8.3.0
+  navigation_history_observer: ^1.1.1
+  permission_handler: ^11.3.1
+  flutter_widget_from_html: ^0.15.3
+  flutter_local_notifications: ^19.1.0
+  flutter_svg: ^2.0.17
+  dotted_border: ^2.1.0
+  flutter_rating_bar: ^4.0.1
+  flutter_slidable: ^3.1.2
+  loading_animation_widget: ^1.3.0
+
+  # scanner 
+  qr_code_scanner: ^1.0.1
+
+  # qr code & barcode generator
+  pretty_qr_code: ^3.4.0
+  barcode_widget: ^2.0.4
+
+  # webview/ webbrowser
+  flutter_inappwebview: ^6.1.5
+  url_launcher: ^6.3.1
+  map_launcher: ^3.5.0
+
+  # location
+  location: ^8.0.0
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+
+  # new version update
+  new_version_plus: ^0.1.0
+
+  # custom loading progress for listview
+  shimmer: ^3.0.0
+
+  # share
+  share_plus: ^10.1.4
+
+  # path
+  path_provider: ^2.1.4
+
+  # screen brightness
+  screen_brightness: ^2.1.2
+
+  # image cache
+  cached_network_image: ^3.4.0
+  # flutter_cache_manager: ^3.3.0
+
+  # currency text input formatter
+  currency_text_input_formatter: ^2.2.9
+
+  # # locale
+  # flutter_translate: 4.1.0
+
+  app_links: ^6.4.1
+  webview_flutter: ^4.13.0
+  external_app_launcher: ^4.0.3
+  convert: ^3.1.1
+  algolia_helper_flutter: ^1.2.0
+  infinite_scroll_pagination: ^4.1.0
+  youtube_player_flutter: ^9.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/i18n/
+    - assets/icons/
+    - assets/icons/bottom/
+    - assets/icons/homePage/
+    - assets/icons/location/
+    - assets/icons/outlet/
+    - assets/icons/profile/
+    - assets/icons/security/
+    - assets/icons/settings/
+    - assets/icons/social/
+    - assets/icons/wallet/
+    - assets/icons/global/
+    - assets/image/
+    - assets/logo/ 
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: fonts/Gotham/Gotham-Light.otf
+          weight: 300
+        - asset: fonts/Gotham/Gotham-Medium.otf
+          weight: 500
+        - asset: fonts/Gotham/Gotham-Bold.otf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1005978599890",
+    "project_id": "oder-eeb6a",
+    "storage_bucket": "oder-eeb6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005978599890:android:368bbf4df48e9b3677480b",
+        "android_client_info": {
+          "package_name": "com.hdi365.oder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32YNwyVYOmV9v3glCMd7y3Wgj-oZQ7eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005978599890:android:41c07f2fae9cd38e77480b",
+        "android_client_info": {
+          "package_name": "com.hdi365.oder.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32YNwyVYOmV9v3glCMd7y3Wgj-oZQ7eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005978599890:android:77ee3f8e206ef5ae77480b",
+        "android_client_info": {
+          "package_name": "com.hdi365.oderstaging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32YNwyVYOmV9v3glCMd7y3Wgj-oZQ7eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+ 
+
+{
+    "isMaintenance": false,
+    "session": true,
+    "status": true,
+    "message":
+        "An OTP code has been sent to sinamira@gmail.com to help you set your security pin.",
+    "data": {
+      "send_via": "email",
+      "send_to": "sinamira@gmail.com",
+      "otp_token":
+          "04cda3de587b56c93d6ddfcf91ba7004c956ebbd76466d94eb43519d961f60e6",
+      "vToken":
+          "3e8926af430632427aa08b35de4fb128fd192566ae61bc0208d18e1623ed4222"
+    }
+}
+

@@ -1,0 +1,13 @@
+dev_dependencies:
+  flutter_launcher_icons: "^0.9.2"
+
+# replace the image_path of where the initial logo is
+# execute the following user the project:
+# flutter pub run flutter_launcher_icons:main -f flutter_launcher_icons.yaml
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/oder_logo.png"
+  # image_path: "assets/logo/kashplus/logo.png"
+  remove_alpha_ios: true
